@@ -1,0 +1,1 @@
+{"version":3,"file":"IFaqProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/faq/components/IFaqProps.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,SAAS;IACxB,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAE,GAAG,CAAC;IACb,WAAW,EAAE,GAAG,CAAC;IACjB,WAAW,EAAE,MAAM,EAAE,CAAC;CACvB"}
