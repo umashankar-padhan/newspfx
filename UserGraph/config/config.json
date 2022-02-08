@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "connect-to-microsoft-graph-api-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/connectToMicrosoftGraphApi/ConnectToMicrosoftGraphApiWebPart.js",
+          "manifest": "./src/webparts/connectToMicrosoftGraphApi/ConnectToMicrosoftGraphApiWebPart.manifest.json"
+        }
+      ]
+    },
+    "send-email-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sendEmail/SendEmailWebPart.js",
+          "manifest": "./src/webparts/sendEmail/SendEmailWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ConnectToMicrosoftGraphApiWebPartStrings": "lib/webparts/connectToMicrosoftGraphApi/loc/{locale}.js",
+    "SendEmailWebPartStrings": "lib/webparts/sendEmail/loc/{locale}.js"
+  }
+}

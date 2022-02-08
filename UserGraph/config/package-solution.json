@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "connect-to-microsoft-graph-api-client-side-solution",
+    "id": "d4cea60f-16d7-4bf2-be8d-028c670ee7de",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "Mail.Send"  
+      }  
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/connect-to-microsoft-graph-api.sppkg"
+  }
+}
