@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "freetextsearch-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/freetextsearch/FreetextsearchWebPart.js",
+          "manifest": "./src/webparts/freetextsearch/FreetextsearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FreetextsearchWebPartStrings": "lib/webparts/freetextsearch/loc/{locale}.js"
+  }
+}
