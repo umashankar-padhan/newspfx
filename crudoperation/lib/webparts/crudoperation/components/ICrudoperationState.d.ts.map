@@ -1,0 +1,1 @@
+{"version":3,"file":"ICrudoperationState.d.ts","sourceRoot":"","sources":["../../../../src/webparts/crudoperation/components/ICrudoperationState.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,wBAAwB,CAAC;AAEzD,MAAM,WAAW,mBAAmB;IAClC,SAAS,EAAC,eAAe,EAAE,CAAC;IAC5B,MAAM,EAAC,MAAM,CAAC;CAGf"}
