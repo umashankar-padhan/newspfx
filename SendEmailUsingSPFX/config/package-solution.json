@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "send-email-using-spfx-sol-client-side-solution",
+    "id": "4499fede-9237-4dc4-9a84-3340bb1df1f9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "Mail.Send"  
+      }  
+    ]
+    
+  },
+  "paths": {
+    "zippedPackage": "solution/send-email-using-spfx-sol.sppkg"
+  }
+}
